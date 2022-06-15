@@ -1,0 +1,28 @@
+{
+  "name": "tg-client-chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rinat Sibgatullin",
+  "license": "ISC",
+  "dependencies": {
+    "@mtproto/core": "6.2.0",
+    "axios": "^0.26.1",
+    "cron": "^1.8.2",
+    "express": "^4.18.1",
+    "http": "^0.0.1-security",
+    "input": "^1.0.1",
+    "node-fetch": "^3.2.3",
+    "nodemon": "^2.0.15",
+    "path": "^0.12.7",
+    "prompts": "^2.4.2",
+    "socket.io": "^4.5.0",
+    "telegram": "^2.6.13",
+    "ws": "^8.6.0"
+  }
+}
